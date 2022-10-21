@@ -1,11 +1,10 @@
 package ab_computoypresupuesto;
 
+import static ab_computoypresupuesto.Menu.leerTeclado;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class FuncionesComputo {
 
-    static Scanner leerTeclado = new Scanner(System.in); //.useDelimiter("\n")
     static ArrayList<MaterialComputado> listaMateriales = new ArrayList<MaterialComputado>();
     static int numeroDeMaterial = 1;
     static int sumatoriaParcial = 0;

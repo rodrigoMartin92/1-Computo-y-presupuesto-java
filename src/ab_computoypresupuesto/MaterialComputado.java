@@ -61,5 +61,5 @@ public class MaterialComputado {
     public String toString() {
         return "MaterialComputado{" + "numeroMaterial=" + numeroMaterial + ", nombreMaterial=" + nombreMaterial + ", cantidad=" + cantidad + ", precio=" + precio + ", computoParcial=" + computoParcial + '}';
     }
-    
+
 }
